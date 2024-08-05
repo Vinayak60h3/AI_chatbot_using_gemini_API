@@ -5,7 +5,7 @@ import speech_recognition as sr
 import pyttsx3
 
 # Replace with your actual API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyD39ML8eh_7rL-i1ALQTMcfeds-E_GAVag"
+os.environ["GOOGLE_API_KEY"] = "YOUR API KEY"
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
